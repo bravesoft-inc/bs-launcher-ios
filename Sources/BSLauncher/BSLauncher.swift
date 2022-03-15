@@ -3,6 +3,8 @@ import Foundation
 public class BSLauncher {
     private lazy var jailBreakCheck = JailBreakCheck()
     
+    public init() { }
+    
     public func checkJeilbreak() -> Bool {
         #if !(TARGET_IPHONE_SIMULATOR)
         return false
