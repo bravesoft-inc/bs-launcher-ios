@@ -26,6 +26,7 @@ final class JailBreakCheck {
             return true
         }
 
+        print("[BSLauncher: Pass] dangerousFileExists.")
         return false
     }
     
@@ -58,6 +59,7 @@ final class JailBreakCheck {
             } catch {}
         }
 
+        print("[BSLauncher: Pass] checkOpenDangerousDirectory.")
         return isJailbreak
     }
     
@@ -74,6 +76,7 @@ final class JailBreakCheck {
             }
         } catch {}
         
+        print("[BSLauncher: Pass] checkWritablePrivateDirectory.")
         return isWrote
     }
     
@@ -82,6 +85,7 @@ final class JailBreakCheck {
             return true
         }
         
+        print("[BSLauncher: Pass] checkCanOpenCydiaPackageURL.")
         return UIApplication.shared.canOpenURL(target)
     }
     
