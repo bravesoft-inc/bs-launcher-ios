@@ -12,7 +12,7 @@ import Darwin.C
 // MEMO: trueが返ってきたら全て脱獄とみなす
 final class JailBreakCheck {
     func dangerousFileExists() -> Bool {
-        if FileManager.default.fileExists(atPath: "/Application/Cydia.app") {
+        if FileManager.default.fileExists(atPath: "/Applications/Cydia.app") {
             return true
         } else if FileManager.default.fileExists(atPath: "/Library/MobileSubstrate/MobileSubstrate.dylib") {
             return true
@@ -37,7 +37,7 @@ final class JailBreakCheck {
         let checkUrls: [String] = [
             "/bin/bash",
             "/bin/ssh",
-            "/Application/Cydia.app",
+            "/Applications/Cydia.app",
             "/Library/MobileSubstrate/MobileSubstrate.dylib",
             "/usr/sbin/sshd",
             "/etc/apt"
