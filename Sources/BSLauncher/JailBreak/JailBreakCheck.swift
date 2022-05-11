@@ -22,7 +22,7 @@ final class JailBreakCheck {
             return true
         } else if FileManager.default.fileExists(atPath: "/etc/apt") {
             return true
-        } else if FileManager.default.fileExists(atPath: "/private/var/lib/apt") {
+        } else if FileManager.default.fileExists(atPath: "/private/var/lib/apt/") {
             return true
         }
 
