@@ -1,4 +1,6 @@
 # BSLauncher
+<img src="https://img.shields.io/badge/SPM-v0.0.6-blue.svg?logo=swift" />
+<img src="https://img.shields.io/badge/platform-iOS14-lightgrey.svg" />
 
 アプリ起動時に実行すると、脱獄チェックを行なってくれるライブラリ。
 
