@@ -1,3 +1,7 @@
 # BSLauncher
 
-A description of this package.
+アプリ起動時に実行すると、脱獄チェックを行なってくれるライブラリ。
+
+## 注意事項
+このライブラリはBeta版になります。
+自己責任でご利用ください。
